@@ -1,43 +1,41 @@
 # Notes App 
 
-Esta es una aplicación web básica para administrar notas simples en la web utilizando tecnologías Javascript como Nodejs, Mongodb y otras tecnologías relacionadas. 
+Esta es una aplicación web básica para administrar notas simples en la web utilizando tecnologías Javascript como Nodejs, Mongodb y otras tecnologías relacionadas. A continuacion se mostrara una breve guia de instalacion y una vista general de la aplicacion en la cual puedes realizar las siguientes acciones:
 
-Esta es una vista general de la aplicacion en la cual puedes realizar las siguientes acciones:
-
-### Visitar la pagina de inicio y conocer mas acerca de la pagina.
+### - Visitar la pagina de inicio y conocer mas acerca de la pagina.
 
 ![](docs/Captura1.JPG)
 
 
 ![](docs/Captura2.JPG)
 
-### Iniciar sesion o registrarte si aun no lo has hecho.
+### - Iniciar sesion o registrarte si aun no lo has hecho.
 
 ![](docs/Captura3.JPG)
 
 
 ![](docs/Captura4.JPG)
 
-### Esta es la pagina de inicio al haber ingresado
+### - Esta es la pagina de inicio al haber ingresado
 
 ![](docs/Captura6.JPG)
 
-### Aqui podras crear nuevas notas de tus tareas importantes.
+### - Aqui podras crear nuevas notas de tus tareas importantes.
 
 ![](docs/Captura7.JPG)
 
-### Una vez has comenzado a añadir tus notas se te mostraran todas y cada una de ellas. 
+### - Una vez has comenzado a añadir tus notas se te mostraran todas y cada una de ellas. 
 
 ![](docs/Captura8.JPG)
 
 
 ![](docs/Captura9.JPG)
 
-### Si has completado alguna de tus tareas o ya no las necesitas mas puedes eliminarlas.
+### - Si has completado alguna de tus tareas o ya no las necesitas mas puedes eliminarlas.
 
 ![](docs/Captura10.JPG)
 
-### Por ultimo tambien hay un apartado al cual se te puede redireccionar si has accedido a una ruta incorrecta.
+### - Por ultimo tambien hay un apartado al cual se te puede redireccionar si has accedido a una ruta incorrecta.
 
 ![](docs/Captura5.JPG)
 
