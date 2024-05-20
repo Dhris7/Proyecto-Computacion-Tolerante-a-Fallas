@@ -1,65 +1,81 @@
-# Notes App NodeMongo
+# Notes App 
 
-This is a basic Web application to manage simple Notes on the web using Javascript Technologies like Nodejs, Mongodb, and other related technologies. Tecnically this is a Multi-Page Application using Handlebars as template engine.
+Esta es una aplicación web básica para administrar notas simples en la web utilizando tecnologías Javascript como Nodejs, Mongodb y otras tecnologías relacionadas. 
 
-This app can do:
+Esta es una vista general de la aplicacion en la cual puedes realizar las siguientes acciones:
 
-- CRUD Operations: create/read/update/delete Notes
-- Allows a user to do login and save his personal notes
-
+### Visitar la pagina de inicio y conocer mas acerca de la pagina.
 
 ![](docs/Captura1.JPG)
+
+
 ![](docs/Captura2.JPG)
+
+### Iniciar sesion o registrarte si aun no lo has hecho.
+
 ![](docs/Captura3.JPG)
+
+
 ![](docs/Captura4.JPG)
-![](docs/Captura5.JPG)
+
+### Esta es la pagina de inicio al haber ingresado
+
 ![](docs/Captura6.JPG)
+
+### Aqui podras crear nuevas notas de tus tareas importantes.
+
 ![](docs/Captura7.JPG)
+
+### Una vez has comenzado a añadir tus notas se te mostraran todas y cada una de ellas. 
+
 ![](docs/Captura8.JPG)
+
+
 ![](docs/Captura9.JPG)
+
+### Si has completado alguna de tus tareas o ya no las necesitas mas puedes eliminarlas.
+
 ![](docs/Captura10.JPG)
 
-### Installation
+### Por ultimo tambien hay un apartado al cual se te puede redireccionar si has accedido a una ruta incorrecta.
+
+![](docs/Captura5.JPG)
+
+
+### Instalacion
 
 ```sh
-git clone https://github.com/FaztTech/nodejs-notes-app
+git clone https://github.com/Dhris7/Proyecto-Computacion-Tolerante-a-Fallas
 cd nodejs-notes-app
 npm i
 npm run dev # run in development mode
 npm start # run in production mode
 ```
 
-> You need to have Mongodb installed Locally or stablish a MONGODB_URI environment variable in order to connect to any mongodb instance (using Mongodb Atlas for example)
+> Es recomendable tener Mongodb instalado localmente o establecer una variable de entorno MONGODB_URI para poder conectarse a cualquier instancia de mongodb.
 
-### Environment Variables
+### Variables del entorno
 
-This app needs the following environment Variables
+Esta applicacion podria requerir ajustar las siguientes variables para una correcta ejecucion.
 
-- `MONGODB_URI` this is the Mongodb URI string
-- `PORT` the server http port for the application
-- `NODE_ENV` node environment
+- `MONGODB_URI` Mongodb URI variable tipo string para asignar la ruta de la base de datos.
+- `PORT` Puerto http del servidor para la aplicación.
+- `NODE_ENV` Entorno de node.
 
-### docker-compose
-
-The most easy way to install the entire project is using docker-compose:
+### Docker-compose
+ 
+La forma mas sencilla de instalar el proyecto es usando docker-compose:
 
 ```shell
-git clone https://github.com/FaztTech/nodejs-notes-app
+git clone https://github.com/Dhris7/Proyecto-Computacion-Tolerante-a-Fallas
 cd nodejs-notes-app
 docker-compose up
 ```
 
-### Default User
+### Usuario por defecto
 
-when the app is lauched, this will create an Admin user with the following credentials:
+Cuando se inicie la aplicación, se creará un usuario administrador por defecto con las siguientes credenciales:
 
 - email: `admin@localhost`
 - password: `adminpassword`
 
-### Tutorial
-
-This app was created with educational purposes, so you can found the tutorials in the following links:
-
-- [Version 2](https://www.youtube.com/playlist?list=PLo5lAe9kQrwqUEXK7oQbzv63KsdODzuAy), new tutorial made in 2020
-  and these are old tutorials about this app
-- [Version 1.0.0](https://youtu.be/-bI0diefasA)
