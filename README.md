@@ -43,11 +43,13 @@ Esta es una aplicación web básica para administrar notas simples en la web uti
 ### Instalacion
 
 ```sh
-git clone https://github.com/Dhris7/Proyecto-Computacion-Tolerante-a-Fallas
-cd nodejs-notes-app
-npm i
-npm run dev # run in development mode
-npm start # run in production mode
+- git clone https://github.com/Dhris7/Proyecto-Computacion-Tolerante-a-Fallas
+- cd notes-app
+- npm i
+- mongod
+- npm run dev # Para ejecutar en modo desarrollador
+o
+- npm start # Ejecutar en modo de producción 
 ```
 
 > Es recomendable tener Mongodb instalado localmente o establecer una variable de entorno MONGODB_URI para poder conectarse a cualquier instancia de mongodb.
@@ -65,9 +67,10 @@ Esta applicacion podria requerir ajustar las siguientes variables para una corre
 La forma mas sencilla de instalar el proyecto es usando docker-compose:
 
 ```shell
-git clone https://github.com/Dhris7/Proyecto-Computacion-Tolerante-a-Fallas
-cd nodejs-notes-app
-docker-compose up
+- git clone https://github.com/Dhris7/Proyecto-Computacion-Tolerante-a-Fallas
+- cd notes-app
+- docker-compose up
+- # Continuar con la instalación habitual 
 ```
 
 ### Usuario por defecto
